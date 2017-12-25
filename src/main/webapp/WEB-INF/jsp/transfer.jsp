@@ -1,4 +1,4 @@
-<%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <html>
 <body>
@@ -8,7 +8,6 @@
 
         <body>
               <c:forEach var = "val" items="${fileList}">
-                 <!--file: <a href="/download/${val}">${val}</a><p>-->
                  file: <a href="/download/${val}">${val}</a><p>
               </c:forEach>
         </body>
